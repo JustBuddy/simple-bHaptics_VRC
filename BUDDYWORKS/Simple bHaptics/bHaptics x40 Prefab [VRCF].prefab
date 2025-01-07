@@ -2980,6 +2980,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7098089291188204167}
+  - component: {fileID: 5340867753407058332}
   m_Layer: 0
   m_Name: bHaptics x40 Prefab [VRCF]
   m_TagString: Untagged
@@ -3004,6 +3005,94 @@ Transform:
   - {fileID: 787103107103095334}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5340867753407058332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8370062607334027983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1153.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3922010920796553221
+  references:
+    version: 2
+    RefIds:
+    - rid: 3922010920796553221
+      type: {class: FullController, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 4
+        controllers:
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: b8293872b8591144b8fec941473a829e|Assets/BUDDYWORKS/Simple bHaptics/Animations/bHaptics_FX.controller
+            objRef: {fileID: 9100000, guid: b8293872b8591144b8fec941473a829e, type: 2}
+          type: 5
+        menus:
+        - menu:
+            version: 1
+            fileID: 0
+            guid: 
+            id: a0645016f913c214f9eb8b02d2fd71aa|Assets/BUDDYWORKS/Simple bHaptics/Avatar
+              3.0/bHaptics_Menu Root.asset
+            objRef: {fileID: 11400000, guid: a0645016f913c214f9eb8b02d2fd71aa, type: 2}
+          prefix: 
+        prms:
+        - parameters:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 13b52319c12b4544ca081caa45f0f96f|Assets/BUDDYWORKS/Simple bHaptics/Avatar
+              3.0/bHaptics_Parameters.asset
+            objRef: {fileID: 11400000, guid: 13b52319c12b4544ca081caa45f0f96f, type: 2}
+        smoothedPrms: []
+        globalParams: []
+        allNonsyncedAreGlobal: 0
+        ignoreSaved: 0
+        toggleParam: 
+        rootObjOverride: {fileID: 0}
+        rootBindingsApplyToAvatar: 0
+        rewriteBindings:
+        - from: bHaptics x40 Prefab [VRCF]
+          to: 
+          delete: 0
+        allowMissingAssets: 0
+        injectSpsDepthParam: 
+        injectSpsVelocityParam: 
+        controller:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        menu:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        parameters:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        submenu: 
+        removePrefixes: []
+        addPrefix: 
+        useSecurityForToggle: 0
 --- !u!1 &8725974761770728231
 GameObject:
   m_ObjectHideFlags: 0
